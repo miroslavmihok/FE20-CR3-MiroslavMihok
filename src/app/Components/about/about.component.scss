@@ -1,0 +1,9 @@
+@import "../../../styles/mixins";
+
+#about_container {
+    @include flex-col-center();
+
+    #about_image_container {
+        background: url("../../../assets/Page2-About/bg-about.jpg") no-repeat center/cover;
+    }
+}

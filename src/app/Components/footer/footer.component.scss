@@ -1,0 +1,12 @@
+@import "../../../styles/mixins";
+
+#footer_container {
+    @include flex-row-center();
+    background-color: $--clr-dark-primary;
+    color: $--clr-light-primary;
+
+    a {
+        color: $--clr-light-primary;
+        cursor: pointer;
+    }
+}

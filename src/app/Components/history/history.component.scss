@@ -1,0 +1,23 @@
+@import "../../../styles/mixins";
+
+#history_container {
+  @include flex-col-center();
+  background-color: $--clr-light-primary;
+
+  #history_image_container {
+    background: url("../../../assets/Page1-Home/bg-history.jpg") no-repeat center/cover;
+  }
+
+  p {
+    font-size: 0.9rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+
+  li {
+    font-size: 0.9rem;
+    list-style-type: disc;
+    line-height: 1.8rem;
+    text-align: justify;
+  }
+}

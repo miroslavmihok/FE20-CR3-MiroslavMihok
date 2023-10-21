@@ -1,0 +1,14 @@
+@import "../../../styles/mixins";
+
+#hero_container {
+  @include flex-col-center();
+  background: url("../../../assets/Page1-Home/bg-hero.jpg") no-repeat center/cover;
+  color: $--clr-light-primary;
+
+  button {
+    @include button-green();
+    &:nth-child(1) {
+        margin-right: 1rem;
+    }
+  }
+}

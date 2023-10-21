@@ -1,0 +1,23 @@
+@import "../../../styles/mixins";
+
+#menu_container {
+  @include flex-col-center();
+
+  #product_container {
+    border: 1px solid lightgray;
+    border-radius: 1.75rem;
+    overflow: hidden;
+
+    #product_text_container {
+        @include flex-col();
+    }
+
+    .details_button {
+      @include button-green();
+    }
+
+    .order_button {
+      @include button-blue();
+    }
+  }
+}

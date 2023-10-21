@@ -1,0 +1,24 @@
+<section class="h-fit pb-12 pt-6 px-40" id="specials_container">
+  <h1>Check our specials</h1>
+  <p class="mb-12">
+    Unveil the Culinary Treasures: Explore Our Exclusive Specials Menu
+  </p>
+  <div class="grid grid-cols-4 items-center gap-4">
+    <div class="flex flex-col justify-evenly">
+      <ng-container *ngFor="let product of products">
+        <ng-template [ngIf]="product.description">
+          <button (click)="clickHandler(product.id)" name="{{product.id}}">{{ product.name }}</button>
+        </ng-template>
+      </ng-container>
+    </div>
+    <div class="col-span-2">
+      <h2>{{products[currentItem].name}}</h2>
+      <p>
+        {{products[currentItem].description}}
+      </p>
+    </div>
+    <div class="flex justify-center items-center h-full">
+      <div class="aspect-square h-full max-h-full" style="background: url('{{products[currentItem].img}}') no-repeat center/cover"></div>
+    </div>
+  </div>
+</section>

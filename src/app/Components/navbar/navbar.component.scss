@@ -1,0 +1,23 @@
+@import "../../../styles/mixins";
+
+#navbar_container {
+    @include flex-row();
+    background-color: $--clr-light-secondary;
+    color: $--clr-medium-primary;
+
+    ul {
+        @include flex-row();
+        
+        a {
+            color: $--clr-medium-primary;
+        }
+    }
+
+    #cart_container {
+        @include flex-row();
+
+        p, i {
+            cursor: pointer;
+        }
+    }
+}

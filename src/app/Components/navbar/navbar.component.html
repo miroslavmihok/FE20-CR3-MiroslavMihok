@@ -1,0 +1,19 @@
+<nav class="fixed w-full h-14 py-2 px-4" id="navbar_container">
+  <div>
+    <img src="../../../assets/Logo/logo.png" alt="logo" class="w-12 h-12" />
+  </div>
+  <ul class="gap-6 ml-4">
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/about">About</a></li>
+    <li><a routerLink="/menu">Menu</a></li>
+  </ul>
+  <div class="gap-4 ml-auto" id="cart_container">
+    <p routerLink="/cart">Cart</p>
+    <i class="fa-solid fa-cart-shopping" routerLink="/cart"></i>
+    <span
+      class="bg-yellow-500 text-white border-none rounded-full px-2"
+      id="cart_count"
+      >0</span
+    >
+  </div>
+</nav>

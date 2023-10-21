@@ -1,0 +1,29 @@
+@import "../../../styles/mixins";
+
+#benefits_container {
+  @include flex-col-center();
+  background-color: $--clr-light-secondary;
+
+  #benefits_bottom_container {
+    @include flex-row();
+    justify-content: space-evenly;
+    text-align: left;
+
+    .benefits_item {
+      @include flex-col-center();
+      width: 25%;
+
+      span {
+        width: 100%;
+      }
+
+      h2 {
+        width: 100%;
+      }
+
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}

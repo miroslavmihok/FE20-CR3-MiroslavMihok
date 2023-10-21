@@ -1,0 +1,81 @@
+@import "variables";
+
+// MIXINS
+
+// ----------
+// Alignments
+// ----------
+
+@mixin flex-row-center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-col-center() {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-row() {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-col() {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+//--------
+// Buttons
+//--------
+
+@mixin button-green() {
+  background-color: $--clr-button-green;
+  color: $--clr-light-primary;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.7rem;
+  // margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  // &:hover {
+  //   background-color: $--clr-shamrockgreen;
+  // }
+}
+
+@mixin button-blue() {
+  background-color: $--clr-button-blue;
+  color: $--clr-light-primary;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.7rem;
+  // margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  // &:hover {
+  //   background-color: $--clr-indian;
+  // }
+}
+
+@mixin button-specials-blue() {
+  background-color: "none";
+  color: $--clr-button-blue;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.7rem;
+  // margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  &:focus {
+    background-color: $--clr-button-blue;
+    color: $--clr-light-primary;
+  }
+}

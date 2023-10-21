@@ -1,0 +1,9 @@
+@import "../../../styles/mixins";
+
+#specials_container {
+    @include flex-col-center();
+
+    button {
+        @include button-specials-blue();
+    }
+}

@@ -1,0 +1,33 @@
+@import "../../../styles/mixins";
+
+#cart_container {
+  @include flex-col();
+  justify-content: space-evenly;
+
+  #cart_products_heading {
+    background-color: $--clr-light-secondary;
+  }
+
+  #cart_summary_heading {
+    background-color: $--clr-light-secondary;
+  }
+
+  tr > td:nth-child(2) {
+    text-align: right;
+  }
+
+  form {
+    @include flex-col();
+
+    input {
+        border: 2px solid $--clr-light-secondary;
+        border-radius: 0.5rem;
+        height: 2rem;
+    }
+
+    button {
+        @include button-blue();
+        width: fit-content;
+    }
+  }
+}
