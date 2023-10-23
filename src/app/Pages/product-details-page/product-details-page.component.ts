@@ -18,7 +18,6 @@ export class ProductDetailsPageComponent implements OnInit {
     this.route.params.subscribe((params: Params) => {
       this.id = +params['productId'];
       this.product = products[this.id];
-      console.log(this.product);
     });
   }
 }

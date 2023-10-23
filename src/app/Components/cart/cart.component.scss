@@ -2,6 +2,7 @@
 
 #cart_container {
   @include flex-col();
+  flex: auto;
   justify-content: space-evenly;
 
   #cart_products_heading {

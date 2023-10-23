@@ -1,2 +1,13 @@
 @import "../../../styles/mixins";
 
+#details_container {
+  @include flex-col-center();
+
+  .details_btn1 {
+    @include button-green();
+  }
+
+  .details_btn2 {
+    @include button-blue();
+  }
+}
