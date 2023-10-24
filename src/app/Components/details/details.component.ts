@@ -13,8 +13,6 @@ export class DetailsComponent implements OnInit {
   constructor(private cartService: CartService) {}
 
   addToCart() {
-    window.alert(`Your product has been added to the cart!`);
-    console.log(this.cartService);
     this.cartService.addToCart(this.product);
   }
 

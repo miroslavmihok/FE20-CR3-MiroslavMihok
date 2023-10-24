@@ -20,7 +20,7 @@
       <div class="flex items-center m-0 px-4 py-4">
         <ng-template [ngIf]="product.available" [ngIfElse]="error">
           <button class="details_button" routerLink="/products/{{productId}}">Details</button>
-          <button class="order_button ml-4">Order</button>
+          <button class="order_button ml-4" (click)="addToCart(productId)">Order</button>
         </ng-template>
         <ng-template #error>
           <p class="text-red-500">This product is not available.</p>

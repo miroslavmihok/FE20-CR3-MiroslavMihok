@@ -9,6 +9,14 @@
     background-color: $--clr-light-secondary;
   }
 
+  #cart_item {
+    
+    hr {
+      width: 80%;
+      margin: 0.5rem 0;
+    }
+  }
+
   #cart_summary_heading {
     background-color: $--clr-light-secondary;
   }
@@ -17,18 +25,26 @@
     text-align: right;
   }
 
+  #clear-cart_section {
+    margin: 0 auto;
+
+    button{
+      @include button-blue();
+    }
+  }
+
   form {
     @include flex-col();
 
     input {
-        border: 2px solid $--clr-light-secondary;
-        border-radius: 0.5rem;
-        height: 2rem;
+      border: 2px solid $--clr-light-secondary;
+      border-radius: 0.5rem;
+      height: 2rem;
     }
 
     button {
-        @include button-blue();
-        width: fit-content;
+      @include button-blue();
+      width: fit-content;
     }
   }
 }

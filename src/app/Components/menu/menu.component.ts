@@ -13,10 +13,9 @@ export class MenuComponent implements OnInit {
 
   constructor(private cartService: CartService) {}
 
-  // addToCart() {
-  //   window.alert('Your product has been added to the cart!');
-  //   this.cartService.addToCart(this.products);
-  // }
+  addToCart(index: number) {
+    this.cartService.addToCart(this.products[index]);
+  }
 
   ngOnInit(): void {}
 }
