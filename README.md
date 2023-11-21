@@ -1,27 +1,30 @@
-# Restaurant
+## Project title: Italian Restaurant
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+<div align="center"><img src="https://lh3.googleusercontent.com/pw/ADCreHeQGmXMT6ytCfsPbGIABdRkv7ungZNXO5_kfzs2sakX4AqKzClKizqMb_x9rVTUoczl0ck9QcrwnF9mdgSMni0WGJXBE8M8I7BK-Gw4D_PzK51mndgwtSGk4Ck6ayqvCn__zNF6lHMxNd2iyNzap5X_yk6CMn3uF1PPSVitul8T1jRq9NuAnTf8_F9-eWsUp2l70t1SNple4QeS9uwuZAQVYQWLfc1fkCwnSG0Pq9FsvL4gAjEJ3iWmrmDjgXKNil2wwAcn0ghvh0O2_7tgvNZkp_H62NSBoEMFlu4J2GQ9dIaOcGyXFy56Sfm7UL9fS-OvDsgnxOx67Xwv2dxI9zsVPmaxIwyzL1X8r-89h1nli-v7w4Z6am9NXzGOgYBwwU6TVhHTnZpScs5HWK0jso_BMA9102r-ePb3hy68GmV0XJHnkR9j3IVcD0hmEtjHBNFwBmx4e_kSmG28ZozfRynDYFhWkYZhbz1XYGmyh_f-60ighnKWv-sCdS2YBdrEgOnN_ls5XqvWrhUyyhVNWlF62Kp4Uvbs9T4P2uq9d9l7MNCDpeo6iKmcEJVt4ayKmNmko7AdTL3F_m0fv3vxhav27JtcZPqaDNQRWptRNhr0zi3vQWCPs1tH63sucZPEipJp5JztErKqDblYZpCHfUUdSOWnS1U5Bd-nK90mjhHrBg5LOUNawCIhFf4ny6yyIYXbHTlTrLzKni5i0-rNY6V7LT2rEdINxkkrafoS9TS0DelWsdxiQ465vQQRx90nfpF5x9_LBTXw3D4O28te03QZsBtuktbrd7ADh2Wxzwm9Bh3OXIvXUPw8MWwiPygBWFJC3qAtEKWnx0YTMGcfknBA8bReS8-ZpUeMWemt4donZtHrfZlVHoRF5eEr_-TBHEgseQMdwHMTrKMnKPjm2TS5hg5Alyy5NTMAHy6o9ilhmRoQ_svlcRraQUghVdAUzAL1PS0OgjmHehFhSLpzq1dxDQf_ZmI=w2246-h1244-s-no-gm?authuser=0" width="700px"></div>
 
-## Development server
+### Tools:
+Angular, Typescript, HTML, SASS, Tailwind CSS, Bootstrap
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Description:
+The Italian Restaurant project, part of the CodeFactory course, narrates the restaurant's story, showcases the menu, and empowers customers to add items dynamically to their cart. The cart displays real-time updates on quantity and price with an option to clear the cart.
 
-## Code scaffolding
+### Menu:
+User can select from a variety of meals and add each to the cart via the "order" buttons, or increase its quantity.
+  
+<img src="https://lh3.googleusercontent.com/pw/ADCreHc9pCq6EKI9tcbjlYnxDObaalf4ytRL0ivctI_Hyf7zLCsvo0wW_yA3NoXf_VeY92N6SmqC3LQpLlFZPjID_HuJSo92CH-g5u5S1nuoUd5VzBYatqCHmZmCxqZVTA74ZmDr8cGMT_UPfi9jymw8teV1q0ljq3O53AqKOsTMDoWNsxtnAztS2Iue6tvcSXjXOfolHRvU3i3SBmWd2gqYkTPAwGk63v13GDVrylmkobMqTKlkjiBsW9o4-1KDwd9Pwn8hOhUb_i0Clg1yQK-hKbB-pAparXRY3iye8ISMcYg9LcuQagfeNs_zqNQoG-1wa1L7Bg_32r89YM67PhAsFH-KZVA0eN1HXL5JQvh_bG9p6zsJ0o0R6X9nat1D8PlocF39XVE4Q03nPRTTa1NqDZJDD0ucqfEEPT-pFKuApea1x8JMDIxlBLhzR-WND1WU6WrNqP9kcNm2Ezjp5O2_qfwIugtlUHPb36tbkBlD7PAGzcg1a58_FCfLLBqcC37Xn76EaUQkcY0FvT9f0BMVWupV9HYg0QtbqLgwt3kAGrOBdnSMiXOCnk64Zlx8gAeWR24MDOCUjiFoU3R6CGOsulRNFKhcwuc-mMwtEqSc_0aCtE7RFD-o8YCM5Jqo8Zu_wACw8mHuxL_vr1RGZqXAIYaSjq7ADyFdFy0Ne-FB4SdvB8FXQXWUtRtvpknPD3t2iht1FPBkMTkERrf6FhkEMEYRup73IonRQP0xCJH3fceDBPSlY9acJ4-Wn5cKMik2BEi5bPWcmKrGcf-j3WFe0-bfqltOWVFd94ciaN5z_FvmdSNMjmPYC7BDUBRAo8ULmoY6FcKrXcu8_x0S-bRzG26EBWTJs14UwT_ykTjRA7GqlpLa2JkDYP2ZKToC5f75VvlmPbZHtT9drnw_dPy0v6_IJjLRXHKEKMd04rYCoXliVbeJJl4eroN5xVKn0Xm6BJhTy3ko5LEdP21uF-cQRGI-s-uRHWU=w1588-h555-s-no-gm?authuser=0" width="700px">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Meal details:
+User can open the details page with the "details" button for each meal and also add the given meal or increase its quantity inside the cart, if the item is already inside.
 
-## Build
+<img src="https://lh3.googleusercontent.com/pw/ADCreHemPr67d2slLge2tkXb3hCywo7c-gx6ygF-TA4jKdsgrMYmbaffy6X1nApRo4CNSWISWgKKw_nLafYCyMbRL9GX1psY5XBgCOYc-gTGvJem3pxomdKtAMlxNxLFzj8EvmnoCdxXbJ7Odw9Emv443pqxDCzK06ZSyy0EKl7l00PhWudM7IJD8Dm48R7wfBlWnu7XudyE_eYK0JythgzwLi_BjvVl5U1cKOHQQ3g86zulO6JTygJF5QZfCMJixVS3r2I68XuTuSoTCezOf8_R9ORfIFH2NA9IrdfBgZq6_5bx6VESFYU-l8z4qsPFj24KAvvmTO4hUdz_HK_bvpJBuHya0cFDPW8MzvVFYbq4J9m46mv-Su-6yES-FjeMGTLnslTK8pCKr_fOkmjpuhOA1PvParQuQwnReXTWLSv8_u7mqdACLoq48zeYb2V7jokS6QkyJnxBDR6_j7Qu228K8VDOIyDo6D4WiyNEow6aqwpq0mjC4AKksVKL1DSR6Eb-Nk7nxXoFbEevr9fLA-Bl7pkJD1K24-NGqe7pT_2y757r7Y8-cfeCVRNkAi09nufBYmZNDpPFdZ7Z9rseoc01XHWs-DOYy5Hu5jrT2cxhxMjiNlrA9g5UNooYzMmEsXN4JkcsCp-Z3EELoOr1qjfuwasy6x1YF4idE0TKOwhtuS_RU0qEttpkyJjeNyafw0LCD0JR6NC1j28j0oIrkYBWwlhQgNttUfG4w0sK4jQr3A8eHTospcgZSCNRCrxvg7sLs__Gtbdt2kNgg3UE8LzTeXBgitHMFMMnV2fY7Xoe1njzawYDCSFhSzKJ0QCPlST9EBpt1HqD0FyNbVCoFyjZuYo1QXtECiI48QD0e-rWtPGlMOO58URoJoulb_BaPOjNBlC9CTuUWNw3w2rIwMdf1600h7c2zmihkWdixclckWTcNSu0e218nC8190nuiJ5geuva-g-60KAaShySBCK0oeScezFmJ30=w1088-h1003-s-no-gm?authuser=0" height="400px">
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Cart:
+In the cart, user can see the summary of the items added into the cart and also the dynamic price including a discount and a fee. There is also an option to clear all items from the cart.
 
-## Running unit tests
+<img src="https://lh3.googleusercontent.com/pw/ADCreHdgYP3f1L9EzFMMMtN0U9tcHIuQUn3HgD7WEwI76dlzX8XwW3e2yKRyRx-Iq9L0vvt52askCew9INHXQL51fI7lE2LfTafZ9djmxkjYoJmkH3hco9gsE3j-5agw1bRiaKFhPDp_NEA4A9sH5wcjvYbELgRIZRVnRYav1PtEBkSK0FojE_rSonDnJFRetIUVY4KS5EFTfX6SwB_2Epsvv6vwmb-OEi-0bZR6SHZzxmZRhSMxG2XbS0mGL5-rP0W-J11doPMU83Q4Z5l3gaGBoWCCoT-Js2U6F9LNiJW0raK-XfxSmXdwSFml3byxuSQmADvHKrjw2RIiEf5ZhiJMFz_4Yra0ptG3GTIgIG-nYs7xJ2mq5tcEfxXaEkxJC1yXeClQyt4Yu9Wfn4lIGZoit1X5IAbwZkjSn57tdmnwH19sQB0FCVoe7q6AQ1RryzJPu5YBZf0dF7Naaq6fzxB9U-HVH75L4-23BF0U21_uDCO3bl9mX1GI8rnNX-uHGvjNF22eaWll_AHLNqtbP3ZGBjAOqIelc5MzW5TsWkfm2NRsCNfPKH-mBQNlVmftOxKYXH6KSnkj4GeiCcbNHqSDKjUSvcasaVv8jlEjBM2u1iUMTbIzhyHAesK7l7mW1AuXiUR0AcRIrFnS5pU0Po7nejM55IEDLm9bGYzJWw2c-a1Bf7slzyP3taw0coG4-U1H-tNR0RbhfkaSQnZ6U-oQ08l_7qcGcQFnlrg1gRb9ZLqzYSVfPlMSxQD8hCvoxh8KsSFgJNiddFrF2FYOKgBZ_QArrZkGTmYXU8D2JDXm7EkfsbEYnQDIjUBUjo7tY9gPXebqmssT4BhpCHoxoz9z6s7maoTAyCFZc0PqE5n9SPR-Df7Hqv8ZZzIxUQ4R7ukZ3KoQC80gfJbUs84G2ZSXjYPdYNCfwdbpESXSbl59Btl7X2d7cgFJ8PWZlXhIrLtsWF6qYOapajAHnlE4Z6OsVfhI0250xx0=w2389-h491-s-no-gm?authuser=0" width="700px">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Installation:
+1. git clone
+2. cd your-project
+3. npm install
+4. ng serve
