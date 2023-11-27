@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Galada&family=Italianno&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+#menu_container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+#menu_container #product_container {
+  border: 1px solid lightgray;
+  border-radius: 1.75rem;
+  overflow: hidden;
+}
+#menu_container #product_container #product_text_container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+#menu_container #product_container .details_button {
+  background-color: #20C997;
+  color: #f7f7f7;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+#menu_container #product_container .order_button {
+  background-color: #1177D1;
+  color: #f7f7f7;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}/*# sourceMappingURL=menu.component.css.map */

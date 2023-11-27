@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Galada&family=Italianno&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+#navbar_container {
+  display: flex;
+  align-items: center;
+  background-color: #E9ECEF;
+  color: #6C757D;
+}
+#navbar_container ul {
+  display: flex;
+  align-items: center;
+}
+#navbar_container ul a {
+  color: #6C757D;
+}
+#navbar_container #cart_container {
+  display: flex;
+  align-items: center;
+}
+#navbar_container #cart_container p,
+#navbar_container #cart_container i {
+  cursor: pointer;
+}/*# sourceMappingURL=navbar.component.css.map */

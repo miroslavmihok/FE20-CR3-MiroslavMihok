@@ -13,12 +13,12 @@ export class CartComponent implements OnInit {
 
   itemsQty: number = 0;
 
-  price: number = 0.00;
-  fee: number = 0.00;
-  discount: number = 0.00;
-  finalPrice: number = 0.00;
-  finalPriceWithDiscount: number = 0.00;
-  priceToDisplay: number = 0.00;
+  price: number = 0.0;
+  fee: number = 0.0;
+  discount: number = 0.0;
+  finalPrice: number = 0.0;
+  finalPriceWithDiscount: number = 0.0;
+  priceToDisplay: number = 0.0;
 
   info = new FormGroup({
     name: new FormControl('', Validators.required),
@@ -27,22 +27,24 @@ export class CartComponent implements OnInit {
 
   constructor(private cartService: CartService) {}
 
-  
   calculatePrice() {
-    const priceSum = this.items.reduce((acc, curr) => acc + (curr.price * curr.quantity), this.price);
+    const priceSum = this.items.reduce(
+      (acc, curr) => acc + curr.price * curr.quantity,
+      this.price
+    );
     this.price = +priceSum.toFixed(2);
     this.fee = +(this.price * 0.1).toFixed(2);
     this.finalPrice = this.price + this.fee;
     this.finalPriceWithDiscount = +(this.finalPrice * 0.85).toFixed(2);
     this.discount = +(this.finalPrice * 0.15).toFixed(2);
-    
+
     if (priceSum > 40) {
       this.priceToDisplay = this.finalPriceWithDiscount;
     } else {
       this.priceToDisplay = this.finalPrice;
     }
   }
-  
+
   getQty() {
     this.itemsQty = this.cartService.getQty();
   }
@@ -56,7 +58,7 @@ export class CartComponent implements OnInit {
     this.priceToDisplay = 0;
     this.itemsQty = 0;
   }
-  
+
   clearCart() {
     this.items = this.cartService.clearCart();
     this.clearSummary();
@@ -65,11 +67,15 @@ export class CartComponent implements OnInit {
   onSubmit() {
     if (this.info.valid) {
       var formData = this.info.value;
-      console.log(formData);
+      alert(
+        `Hello ${formData.name}, your order will be shipped to ${formData.address}`
+      );
+    } else {
+      alert('Please fill out the form correctly.');
     }
     this.items = this.cartService.getItems();
   }
-  
+
   ngOnInit(): void {
     this.items = this.cartService.getItems();
     this.itemsQty = this.cartService.getQty();

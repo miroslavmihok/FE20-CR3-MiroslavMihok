@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Galada&family=Italianno&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Galada&family=Italianno&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Galada&family=Italianno&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  position: relative;
+}
+
+body:not(i) {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-family: "Italianno", cursive;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  display: block;
+}
+
+button {
+  outline: none;
+}/*# sourceMappingURL=styles.css.map */

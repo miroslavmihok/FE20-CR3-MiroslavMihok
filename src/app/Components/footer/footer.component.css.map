@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../styles/_typography.scss","footer.component.scss","../../../styles/_mixins.scss","../../../styles/_variables.scss","footer.component.css"],"names":[],"mappings":"AAAQ,qLAAA;ACER;ECOE,aAAA;EACA,mBAAA;EACA,uBAAA;EDPE,yBEIiB;EFHjB,cAAA;AGEJ;AHAI;EACI,cEHc;EFId,eAAA;AGER","file":"footer.component.css"}

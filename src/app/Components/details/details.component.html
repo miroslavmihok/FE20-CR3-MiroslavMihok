@@ -1,23 +1,32 @@
-<div class="h-full w-full py-40" id="details_container">
+<div
+  class="min-h-full h-full max-sm:h-auto w-full py-40 max-sm:py-24 max-sm:px-4"
+  id="details_container"
+>
   <div
-    class="flex flex-col justify-start border-2 border-gray-400 rounded-2xl w-[40%] h-full text-center overflow-hidden"
+    class="flex flex-col justify-start border-2 border-gray-400 rounded-2xl w-[40%] h-full text-center overflow-hidden max-sm:w-full"
   >
     <div
-      class="h-[30%] w-full"
+      class="min-h-[10rem] h-[30%] w-full max-sm:mb-6"
       style="background: url('{{ product.img }}') no-repeat center/cover"
     ></div>
     <div class="h-[70%] w-[70%] m-auto">
       <div class="h-[50%]">
-          <h1>{{ product.name }}</h1>
-          <hr />
-          <p class="mt-4">{{ product.ingredients }}</p>
-          <p class="font-semibold text-xl mb-4">${{ product.price }}</p>
-          <hr />
+        <h1
+          class="max-lg:text-center max-xl:text-7xl max-md:text-6xl max-sm:text-5xl"
+        >
+          {{ product.name }}
+        </h1>
+        <hr />
+        <p class="mt-4">{{ product.ingredients }}</p>
+        <p class="font-semibold text-xl mb-4">${{ product.price }}</p>
+        <hr />
       </div>
-      <div class="h-[50%] flex flex-col items-center justify-evenly">
-          <p class="">{{ product.description }}</p>
-          <button class="details_btn1" routerLink="/menu">Back to Menu</button>
-          <button class="details_btn2" (click)="addToCart()">Order</button>
+      <div
+        class="h-[50%] flex flex-col items-center justify-evenly max-sm:gap-4 max-sm:py-4"
+      >
+        <p class="">{{ product.description }}</p>
+        <button class="details_btn1" routerLink="/menu">Back to Menu</button>
+        <button class="details_btn2" (click)="addToCart()">Order</button>
       </div>
     </div>
   </div>
