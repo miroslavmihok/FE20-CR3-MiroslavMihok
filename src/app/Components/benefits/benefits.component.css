@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Galada&family=Italianno&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+#benefits_container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #E9ECEF;
+}
+#benefits_container #benefits_bottom_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+}
+@media not all and (min-width: 768px) {
+  #benefits_container #benefits_bottom_container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+#benefits_container #benefits_bottom_container .benefits_item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+@media not all and (min-width: 768px) {
+  #benefits_container #benefits_bottom_container .benefits_item {
+    width: 100%;
+  }
+}
+#benefits_container #benefits_bottom_container .benefits_item span {
+  width: 100%;
+}
+#benefits_container #benefits_bottom_container .benefits_item h2 {
+  width: 100%;
+}
+#benefits_container #benefits_bottom_container .benefits_item p {
+  text-align: justify;
+}/*# sourceMappingURL=benefits.component.css.map */

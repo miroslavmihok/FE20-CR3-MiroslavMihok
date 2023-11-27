@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Galada&family=Italianno&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+#history_container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+#history_container #history_image_container {
+  background: url("../../../assets/Page1-Home/bg-history.jpg") no-repeat center/cover;
+}
+#history_container p {
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+#history_container li {
+  font-size: 0.9rem;
+  list-style-type: disc;
+  line-height: 1.8rem;
+  text-align: justify;
+}/*# sourceMappingURL=history.component.css.map */

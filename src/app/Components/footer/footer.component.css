@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Galada&family=Italianno&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+#footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+  color: #f7f7f7;
+}
+#footer_container a {
+  color: #f7f7f7;
+  cursor: pointer;
+}/*# sourceMappingURL=footer.component.css.map */

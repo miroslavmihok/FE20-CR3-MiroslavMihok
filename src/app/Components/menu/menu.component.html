@@ -1,11 +1,19 @@
-<section class="py-12 px-32" id="menu_container">
-  <h1>Our Menu</h1>
+<section class="py-12 px-32 max-sm:py-24 max-sm:px-4" id="menu_container">
+  <h1
+    class="max-lg:text-center max-xl:text-7xl max-md:text-6xl max-sm:text-5xl"
+  >
+    Our Menu
+  </h1>
   <hr class="w-full mb-12" />
   <div
     class="w-full py-12"
     class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12"
   >
-    <div class="h-fit" *ngFor="let product of products; index as productId" id="product_container">
+    <div
+      class="h-fit"
+      *ngFor="let product of products; index as productId"
+      id="product_container"
+    >
       <div
         class="aspect-video max-w-full"
         style="background: url('{{ product.img }}') no-repeat center/cover"
@@ -15,12 +23,18 @@
         <p>{{ product.ingredients }}</p>
       </div>
       <hr />
-      <p class='m-0 px-4 py-4'><span class="product_price">${{ product.price }}</span></p>
+      <p class="m-0 px-4 py-4">
+        <span class="product_price">${{ product.price }}</span>
+      </p>
       <hr />
       <div class="flex items-center m-0 px-4 py-4">
         <ng-template [ngIf]="product.available" [ngIfElse]="error">
-          <button class="details_button" routerLink="/products/{{productId}}">Details</button>
-          <button class="order_button ml-4" (click)="addToCart(productId)">Order</button>
+          <button class="details_button" routerLink="/products/{{ productId }}">
+            Details
+          </button>
+          <button class="order_button ml-4" (click)="addToCart(productId)">
+            Order
+          </button>
         </ng-template>
         <ng-template #error>
           <p class="text-red-500">This product is not available.</p>

@@ -8,10 +8,16 @@
     @include flex-row();
     justify-content: space-evenly;
     text-align: left;
+    @media not all and (min-width: 768px) {
+      @include flex-col-center;
+    }
 
     .benefits_item {
       @include flex-col-center();
       width: 25%;
+      @media not all and (min-width: 768px) {
+        width: 100%;
+      }
 
       span {
         width: 100%;
